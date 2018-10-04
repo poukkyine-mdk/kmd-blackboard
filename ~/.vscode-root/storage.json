@@ -472,7 +472,8 @@
     "pickerWorkingDir": "/home/pk",
     "openedPathsList": {
         "workspaces2": [
-            "file:///home/pk/kmd-blackboard"
+            "file:///home/pk/kmd-blackboard",
+            "file:///home/pk/yelp-camp/Colt-Steele-Web-Dev-Bootcamp/YelpCamp/v2"
         ],
         "files2": []
     }

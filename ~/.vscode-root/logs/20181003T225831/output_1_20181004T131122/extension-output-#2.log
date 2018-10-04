@@ -1,0 +1,249 @@
+[Info  - 1:11:24 pm] Using tsserver from: /usr/share/code/resources/app/extensions/node_modules/typescript/lib
+[Info  - 1:11:24 pm] Forking TSServer
+PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin 
+[Info  - 1:11:24 pm] Started TSServer
+[Error  - 1:43:03 pm] 'completionEntryDetails' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119075:36
+    at Object.mapDefined (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:577:30)
+    at IOSession.Session.getCompletionEntryDetails (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119073:33)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118133:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)
+[Error  - 1:43:27 pm] 'completionInfo' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at IOSession.Session.getCompletions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119049:43)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118124:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)
+[Error  - 1:43:27 pm] 'jsxClosingTag' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at IOSession.Session.getJsxClosingTag (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118727:35)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118245:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)
+[Error  - 1:43:31 pm] 'completionInfo' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at IOSession.Session.getCompletions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119049:43)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118124:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)
+[Error  - 1:43:31 pm] 'jsxClosingTag' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at IOSession.Session.getJsxClosingTag (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118727:35)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118245:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)
+[Error  - 1:43:40 pm] 'completionInfo' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at IOSession.Session.getCompletions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119049:43)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118124:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)
+[Error  - 1:43:40 pm] 'completionInfo' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at IOSession.Session.getCompletions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119049:43)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118124:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)
+[Error  - 1:43:41 pm] 'completionInfo' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at IOSession.Session.getCompletions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119049:43)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118124:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)
+[Error  - 1:43:41 pm] 'completionInfo' request failed with error.
+Error processing request. Cannot read property 'close' of undefined
+TypeError: Cannot read property 'close' of undefined
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85423:37
+    at Map.forEach (<anonymous>)
+    at Object.finishCachingPerDirectoryResolution (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:85420:45)
+    at InferredProject.Project.updateGraphWorker (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115470:38)
+    at InferredProject.Project.updateGraph (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115416:42)
+    at InferredProject.Project.getLanguageService (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:115122:26)
+    at IOSession.Session.getCompletions (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119049:43)
+    at Session.handlers.ts.createMapFromTemplate._a.(anonymous function) (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:118124:61)
+    at /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:88
+    at IOSession.Session.executeWithRequestId (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119522:28)
+    at IOSession.Session.executeCommand (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119531:33)
+    at IOSession.Session.onMessage (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:119551:35)
+    at Interface.<anonymous> (/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js:120805:27)
+    at emitOne (events.js:116:13)
+    at Interface.emit (events.js:211:7)
+    at Interface._onLine (readline.js:282:10)
+    at Interface._normalWrite (readline.js:424:12)
+    at Socket.ondata (readline.js:141:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at Pipe.onread (net.js:594:20)

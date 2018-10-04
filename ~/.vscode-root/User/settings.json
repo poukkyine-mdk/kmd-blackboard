@@ -1,3 +1,4 @@
 {
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "window.zoomLevel": 2
 }
