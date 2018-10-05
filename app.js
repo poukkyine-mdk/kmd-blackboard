@@ -72,5 +72,5 @@ app.get("/courses/:id", function(req, res) {
 });
 
 app.listen(80, process.env.IP, function() {
-  console.log("Server has Started!!!");
+  console.log("Server has Started New!!!");
 });
