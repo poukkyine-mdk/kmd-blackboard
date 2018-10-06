@@ -878,3 +878,35 @@ Open repository: /home/pk/kmd-blackboard
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git check-ignore -z --stdin
+> git show :app.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :app.js
+> git ls-tree -l HEAD -- /home/pk/kmd-blackboard/~/.vscode-root/Local Storage/file__0.localstorage
+> git show 290933336cb8c237ad221c73a64625d0ec5b56a7
+> git ls-tree -l HEAD -- /home/pk/kmd-blackboard/~/.vscode-root/logs/20181006T131239/output_1_20181006T131243/extension-output-#1.log
+> git show b45f061d9bd0fc0df0293f9bf9eff48f63c57dc8
+> git show HEAD:~/.vscode-root/logs/20181006T131239/output_1_20181006T131243/extension-output-#1.log
+> git ls-tree -l HEAD -- /home/pk/kmd-blackboard/~/.vscode-root/Local Storage/file__0.localstorage
+> git show 290933336cb8c237ad221c73a64625d0ec5b56a7
