@@ -79,13 +79,11 @@ app.get("/login", function (req, res) {
 app.get("/courses", function (req, res) {
   if (req.session.username) {
     var username=req.session.username;
-    var rows;
+    
     client.execute("SELECT * FROM kmd_blackboard.courses_by_user WHERE username='"+username+"'",
     function(err,result){
         if(!err){
-          rows=result.rows;
-          console.log(result.rows)
-          console.log(rows[0].coursename)
+          var rows=result.rows;
           res.render("courses",{rows,rows})
         }else{
           console.log(err);
@@ -121,6 +119,11 @@ app.get("/courses/:id", function (req, res) {
 res.send("hi")
 });
 
+<<<<<<< HEAD
 app.listen(80, process.env.IP, function () {
   console.log("Server has Started!!!");
+=======
+app.listen(80, process.env.IP, function() {
+  console.log("Server has Started New!!!");
+>>>>>>> d05a08c5e93394f14bb0b9b7df6e8a5788351331
 });

@@ -22,3 +22,9 @@
 [2018-10-06 13:13:44.043] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/out/extension
 [2018-10-06 13:14:23.245] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
 [2018-10-06 13:14:23.245] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2018-10-06 15:00:52.127] [exthost1] [info] ExtensionService#_doActivateExtension PeterJausovec.vscode-docker {"startup":false,"activationEvent":"onLanguage:dockerfile"}
+[2018-10-06 15:00:52.127] [exthost1] [info] ExtensionService#loadCommonJSModule /home/pk/.vscode/extensions/peterjausovec.vscode-docker-0.3.1/out/dockerExtension
+[2018-10-06 15:01:09.662] [exthost1] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2018-10-06 15:01:09.662] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/markdown-language-features/out/extension
+[2018-10-06 15:01:10.541] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-10-06 15:01:10.541] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/npm/out/main
