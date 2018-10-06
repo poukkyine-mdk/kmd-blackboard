@@ -119,11 +119,6 @@ app.get("/courses/:id", function (req, res) {
 res.send("hi")
 });
 
-<<<<<<< HEAD
 app.listen(80, process.env.IP, function () {
   console.log("Server has Started!!!");
-=======
-app.listen(80, process.env.IP, function() {
-  console.log("Server has Started New!!!");
->>>>>>> d05a08c5e93394f14bb0b9b7df6e8a5788351331
 });
