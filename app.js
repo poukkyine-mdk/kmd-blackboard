@@ -25,24 +25,28 @@ app.use(session({
   resave: true,
   saveUninitialized: true
 }))
+app.use(express.static(__dirname + "/public"));
 /* *************************************************** */
 /* Landing */
 app.get("/", function (req, res) {
   res.render("landing");
 });
+app.use(function(req, res, next) {
+  res.locals.currentUser = req.session.username;
+  next();
+});
 /* *************************************************** */
 /* login */
 app.post("/login", function (req, res) {
-var courses;
+
   if (req.body.username != "") {
     client
       .execute("SELECT * FROM kmd_blackboard.users WHERE username='" + req.body.username + "'",
         function (err, result) {
           if (!err) {
-            console.log(result.rows[0].courses);
             if (result.rowLength == 1) {
+              
               if (result.rows[0].username == req.body.username && result.rows[0].password == req.body.password) {
-                courses=result.rows[0].courses;
                 req.session.username = result.rows[0].username;
                 res.redirect("/courses");
               } else {
@@ -60,20 +64,37 @@ var courses;
         })
   } else {
     req.session.ok = false;
-    res.send("/login")
+    res.redirect("/login")
   }
 })
 app.get("/login", function (req, res) {
-  var ok;
-  if (req.session.ok == false) {
-    ok = req.session.ok;
-  } else {
-    ok = true;
+  
+  if(!req.session.username){
+ 
+    var ok;
+    if (req.session.ok == false) {
+      ok = req.session.ok;
+    } else {
+      ok = true;
+    }
+    res.render("login", {
+      ok: ok
+    });
+  }else{
+ 
+    res.redirect("/courses")
   }
-  res.render("login", {
-    ok: ok
-  });
 })
+/* *************************************************** */
+/**  Log Out **/
+app.get("/logout",function(req,res){
+  if(req.session.username){
+    req.session.destroy();
+    req.session=null;
+  }
+  res.redirect("/")
+})
+
 /* *************************************************** */
 /**  Show all courses **/
 app.get("/courses", function (req, res) {

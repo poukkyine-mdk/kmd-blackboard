@@ -1,15 +1,22 @@
-<h1>Your Courses</h1>
+<% include ./partials/header %>
+    <div class="row">
+        <h1 style="text-align: center">Your Courses</h1>
+      
+        <div style="width: 30%; margin: 25px auto;">
+                <ul>
 
-<ul>
-
-    <% rows.forEach(function(course){ %>
-    <li> 
-        <a href="/courses/<%= course.coursecode  %>">
-            <span>   <%= course.coursecode  %> - </span>
-            <strong> <%= course.coursename  %>   </strong>
-        </a>
-    </li>
-    <% }) %>
-  
-    
-</ul>
+                        <% rows.forEach(function(course){ %>
+                        <li> 
+                            <a href="/courses/<%= course.coursecode  %>">
+                                <span>   <%= course.coursecode  %> - </span>
+                                <strong> <%= course.coursename  %>   </strong>
+                            </a>
+                        </li>
+                        <% }) %>
+                      
+                        
+                    </ul>
+            <a href="/">Go Back</a>
+        </div>
+    </div>
+<% include ./partials/footer %>
