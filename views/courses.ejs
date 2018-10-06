@@ -1,0 +1,15 @@
+<h1>Your Courses</h1>
+
+<ul>
+
+    <% rows.forEach(function(course){ %>
+    <li> 
+        <a href="/courses/<%= course.coursecode  %>">
+            <span>   <%= course.coursecode  %> - </span>
+            <strong> <%= course.coursename  %>   </strong>
+        </a>
+    </li>
+    <% }) %>
+  
+    
+</ul>

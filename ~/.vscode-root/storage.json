@@ -476,5 +476,25 @@
             "file:///home/pk/yelp-camp/Colt-Steele-Web-Dev-Bootcamp/YelpCamp/v2"
         ],
         "files2": []
+    },
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/home/pk/kmd-blackboard",
+                "external": "file:///home/pk/kmd-blackboard",
+                "path": "/home/pk/kmd-blackboard",
+                "scheme": "file"
+            },
+            "backupPath": "/home/pk/kmd-blackboard/~/.vscode-root/Backups/db445d11df583e077477ad4dbd823393",
+            "uiState": {
+                "mode": 1,
+                "x": 700,
+                "y": 55,
+                "width": 1220,
+                "height": 1025
+            }
+        }
     }
 }

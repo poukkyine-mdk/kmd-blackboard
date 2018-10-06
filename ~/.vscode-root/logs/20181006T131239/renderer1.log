@@ -1,0 +1,11 @@
+[2018-10-06 13:12:44.410] [renderer1] [info] no standard startup: not the explorer viewlet
+[2018-10-06 13:27:26.918] [renderer1] [error] Illegal argument: character must be non-negative: Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:91:544)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:475:904)
+	at h (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:147840)
+	at f (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:147913)
+	at /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:149009
+	at v (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:149195)
+	at Array.map (<anonymous>)
+	at asCompletionResult (/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain.js:1:154233)
+	at <anonymous>
