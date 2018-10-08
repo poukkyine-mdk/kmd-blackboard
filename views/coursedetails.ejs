@@ -1,2 +1,37 @@
 <% include partials/header %>
+
+<header class="jumbotron">
+    <div class="container text-center">
+        <h1><i class="fa fa-desktop"> </i> Welcome to
+            <%=  result.rows[0].coursename %>
+        </h1>
+        <h3>(
+            <%=  result.rows[0].coursecode %> )</h2>
+
+            <h3>Lecturer -
+                <%=  result.rows[0].courselecturer %>
+            </h3>
+            <br>
+            <div class="text-center">
+                <p>
+                    <a class="btn btn-primary btn-lg" href="/courses/<%=  result.rows[0].coursecode %>/lectures">View
+                        Lectures
+                    </a>
+                </p>
+
+                <p>
+                    <a class="btn btn-primary btn-lg" href="/courses/<%=  result.rows[0].coursecode %>/assessments">View
+                        Assessment Information</a>
+                </p>
+                <p>
+                        <a class="btn btn-primary btn-lg" href="/courses/<%=  result.rows[0].coursecode %>/grades">View Grades</a>
+                    </p>
+                <a href="/courses"> Go Back</a>
+            </div>
+
+    </div>
+</header>
+
+
+
 <% include partials/footer %>

@@ -1,0 +1,29 @@
+<% include partials/header %>
+<div class="row">
+
+    <div style="width: 30%; margin: 25px auto;">
+
+        <% result.rows.forEach(function(row){ %>
+        <h1>Grades for
+            <%= row.coursecode %>
+        </h1>
+        <% for (var k in row.grades){ %>
+        <%    if (row.grades.hasOwnProperty(k)) { %>
+        <ul>
+            <li><h3>
+                <%=  k %> =>
+                <%= row.grades[k] %>
+            </h3>
+    
+            </li>
+        </ul>
+
+        <%   } %>
+        <% } %>
+        <% }) %>
+        <a href="/courses/<%=result.rows[0].coursecode %>"> Go Back</a>
+    </div>
+</div>
+
+
+<% include partials/footer %>

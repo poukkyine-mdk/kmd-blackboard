@@ -1,0 +1,46 @@
+<% include partials/header %>
+<div class="row">
+        <h1 style="text-align: center"><%= result.rows[0].coursecode %> Lectures</h1>
+      
+        <div style="width: 30%; margin: 25px auto;">
+                <ul>
+   
+       
+                        <% result.rows.forEach(function(row){ %>
+                            <li>  Week  <%= row.week %>
+                            <ul> 
+                                <div style="color:green;">Lecture Slides</div>
+                                    
+                                         <% row.slides.forEach(function(slide){ %>
+                                            
+                                            <li> <a href="<%= slide %>"><%= slide %></a></li>
+                
+                                         <% })  %>
+                                    
+                            </ul>
+                            <ul> 
+                                    <div style="color:green;">Lecture Recordings</div>
+                                        
+                                             <% row.recordings.forEach(function(recording){ %>
+                                                
+                                                <li> <a href="<%= recording %>"><%= recording %></a></li>
+                    
+                                             <% })  %>
+                                        
+                                </ul>
+                    
+                
+                        </li>
+                            <% }) %>
+                        
+                        
+                    
+                        
+                   
+                </ul>
+            <a href="/courses/<%= result.rows[0].coursecode %>">Go Back</a>
+        </div>
+    </div>
+
+
+<% include partials/footer %>
